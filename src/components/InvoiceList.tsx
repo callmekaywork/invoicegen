@@ -85,7 +85,7 @@ export default function InvoiceList({
                     <div className="flex flex-col">
                       <span className="font-medium">{invoice.clientName}</span>
                       <span className="text-xs text-zinc-500">
-                        {invoice.clientEmail}
+                        {invoice.clientEmail}_
                       </span>
                     </div>
                   </TableCell>
