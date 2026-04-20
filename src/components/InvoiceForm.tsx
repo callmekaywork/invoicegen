@@ -537,7 +537,7 @@ export default function InvoiceForm({
                           />
                         </td>
                         <td className="py-2 px-2 text-right font-bold text-sm">
-                          ${(item.quantity * item.price).toFixed(2)}
+                          ZAR {(item.quantity * item.price).toFixed(2)}
                         </td>
                         <td className="py-2 px-2 text-right">
                           <button
