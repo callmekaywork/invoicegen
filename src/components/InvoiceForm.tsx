@@ -581,7 +581,7 @@ export default function InvoiceForm({
                     <div className="space-y-2">
                       <div className="flex justify-between text-xs opacity-60 font-mono uppercase">
                         <span>Subtotal</span>
-                        <span>${invoice.total.toFixed(2)}</span>
+                        <span>ZAR {invoice.total.toFixed(2)}</span>
                       </div>
                       <div
                         className={`flex justify-between text-3xl font-bold border-t-2 border-black pt-4 ${
