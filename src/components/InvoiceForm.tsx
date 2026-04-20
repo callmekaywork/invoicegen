@@ -608,7 +608,7 @@ export default function InvoiceForm({
                         >
                           Total
                         </span>
-                        <span>${invoice.total.toFixed(2)}</span>
+                        <span>ZAR {invoice.total.toFixed(2)}</span>
                       </div>
                     </div>
                   </div>

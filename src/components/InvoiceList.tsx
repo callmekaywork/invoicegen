@@ -93,7 +93,7 @@ export default function InvoiceList({
                     {format(new Date(invoice.date), "MMM dd, yyyy")}
                   </TableCell>
                   <TableCell className="font-mono font-bold">
-                    ${invoice.total.toFixed(2)}
+                    ZAR {invoice.total.toFixed(2)}
                   </TableCell>
                   <TableCell className="text-right">
                     <div className="flex justify-end gap-1">
